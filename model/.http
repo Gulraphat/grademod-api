@@ -1,0 +1,32 @@
+# โค้ดทดสอบทำนาย ต้องใช้ extension ชื่อ REST Client ใน Visual Studio Code ในการทดสอบ
+# POST http://localhost:8000/predict1_1/
+# Content-Type: application/json
+
+# [{
+# "SCHOOL_NAME": "สาธิตมหาวิทยาลัยราชภัฏนครปฐม",
+# "OLDGPA": 3.15,
+# "SCHOOLPROV": "นครปฐม"
+# },
+# {        
+# "SCHOOL_NAME": "ทิวไผ่งาม",        
+# "OLDGPA": 3.21,        
+# "SCHOOLPROV": "กรุงเทพมหานคร"    
+# }]
+
+POST http://localhost:8000/predict1_2/
+Content-Type: application/json
+
+[{
+"SCHOOL_NAME": "มัธยมวัดสิงห์",
+"OLDGPA": 3.15,
+"PROGRAM": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ ปริญญาตรี 4 ปี  (หลักสูตรนานาชาติ)",
+"GPAX1_1": 1.6,
+"MTH101": "F"
+},
+{        
+"SCHOOL_NAME": "มัธยมวัดสิงห์",
+"PROGRAM": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ ปริญญาตรี 4 ปี  (หลักสูตรนานาชาติ)",
+"OLDGPA": 3.15,
+"GPAX1_1": 1.6,
+"MTH101": "D"
+}]

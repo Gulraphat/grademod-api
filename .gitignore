@@ -1,0 +1,9 @@
+# Ignore Virtual Environment Files
+venv/
+*.pyc
+
+# Ignore Database Files
+# db.sqlite3
+
+# Ignore Log Files
+*.log

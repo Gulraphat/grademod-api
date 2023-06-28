@@ -1,0 +1,4 @@
+GET http://localhost:8000/GPAX1_1/
+HEADER
+Content-Type: application/json
+uid: FZryW1Omg9hIkt5Uldgve4RYsmx1
